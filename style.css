@@ -1,3 +1,47 @@
-{h1
-.font-family: 'Young Serif', serif;
+body {
+  font-family: "Tilt Neon", cursive;
+  background-color: rgb(34, 34, 34);
+}
+
+
+h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: normal;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: normal;
+}
+
+h5 {
+  color: white;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: normal;
+}
+
+h2 {
+  color: whitesmoke;
+  font-size: 50px;
+  font-weight: normal;
+  text-align: normal;
+}
+
+h3 {
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: normal;
+}
+
+li {
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: normal;
 }
