@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LincolnSmith Vacation!</title>
+  <title>Lincoln Smith Vacation!</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,10 @@
       <div class="row">
         <div class="col-md-12">
       <h2><br>Hi Honors Web Design!</h2>
-      <h3>Today I'm going to show you some of the places I visited on my family's trip to Chattanooga, Tennessee!</h3>
+      <h3 >Today I'm going to show you some of the places I visited on my family's trip to Chattanooga, Tennessee!<br><br>
+        <center>
+        <button type="button" onclick="document.getElementById('Destinations').scrollIntoView();" class="btn btn-primary">Destinations!</button> </h3> <br>    </center>
+        <center><button type="button" onclick="document.getElementById('family').scrollIntoView();" class="btn btn-primary">Companions!</button> </h3></center>
     </div>
   </header>
   <br>
@@ -25,12 +28,13 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     </div>
-    <div class="carousel-inner">
+    <div id= "Destinations" class="carousel-inner">
       <div class="carousel-item active">
         <img src="imgs/rock-city.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Rock City!</h5>
-          <p>"When you visit Rock City Gardens, you'll stroll through a 4,100-foot Enchanted Trail where you'll encounter incredible rock formations, magical caves, and breathtaking views."<br> <a href="https://www.seerockcity.com/">-seerockcity.com</a></p>
+          <p>"When you visit Rock City Gardens, you'll stroll through a 4,100-foot Enchanted Trail where you'll encounter incredible rock formations,
+             magical caves, and breathtaking views."<br> <a href="https://www.seerockcity.com/">-seerockcity.com</a></p>
         </div>
       </div>
       <div class="carousel-item">
@@ -51,7 +55,7 @@
     </button>
   </div>
 
-  <div class="container">
+  <div class="container" id="family">
     <div class="row">
       <div class="col-md-6">
         <h2>Who Went With Me?</h2>
@@ -70,12 +74,21 @@
 
   <footer>
     <div class="container">
-      <h3>Contact: <a href="mailto:Lincolnsmith628@gmail.com">Lincolnsmith628@gmail.com</a></h3>
+      <h3>Contact: Lincolnsmith628@gmail.com</h3>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<h4> (easter egg) THE thousand injuries of Fortunato I had borne as I best
+  could; but when he ventured upon insult, I vowed revenge.
+  You, who so well know the nature of my soul, will not
+  suppose, however, that I gave utterance to a threat. At length
+  I would be avenged; this was a point definitively settled—
+  but the very definitiveness with which it was resolved,
+  precluded the idea of risk. I must not only punish, but punish
+  with impunity. A wrong is unredressed when retribution
+  overtakes its redresser. It is equally unredressed when the
+  avenger fails to make himself felt as such to him who has
+  done the wrong. </h4>
 </body>
 </html>
-
--navigation system that uses button
